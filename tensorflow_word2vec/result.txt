@@ -1,0 +1,342 @@
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:04:00.0
+Total memory: 11.17GiB
+Free memory: 388.12MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x3f9ac30
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 1 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:05:00.0
+Total memory: 11.17GiB
+Free memory: 494.12MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x3f9e5c0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 2 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:84:00.0
+Total memory: 11.17GiB
+Free memory: 226.62MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x3fa1f50
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 3 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:85:00.0
+Total memory: 11.17GiB
+Free memory: 424.00MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x3fa58e0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 4 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:8a:00.0
+Total memory: 11.17GiB
+Free memory: 466.38MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x3fa9270
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 5 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:8b:00.0
+Total memory: 11.17GiB
+Free memory: 492.00MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x3facc00
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 6 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:8e:00.0
+Total memory: 11.17GiB
+Free memory: 492.00MiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x3fb0590
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 7 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:8f:00.0
+Total memory: 11.17GiB
+Free memory: 493.88MiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 2
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 3
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 4
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 5
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 6
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 7
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 2
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 3
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 4
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 5
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 6
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 7
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 2 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 2 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 3 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 3 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 4 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 4 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 5 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 5 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 6 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 6 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 7 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 7 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 1 2 3 4 5 6 7 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y Y N N N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 1:   Y Y N N N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 2:   N N Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 3:   N N Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 4:   N N Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 5:   N N Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 6:   N N Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 7:   N N Y Y Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:4) -> (device: 4, name: Tesla K80, pci bus id: 0000:8a:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:5) -> (device: 5, name: Tesla K80, pci bus id: 0000:8b:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:6) -> (device: 6, name: Tesla K80, pci bus id: 0000:8e:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:7) -> (device: 7, name: Tesla K80, pci bus id: 0000:8f:00.0)
+Found and verified text8.zip
+Data size 17005207
+Most common words (+UNK) [['UNK', 418391], ('the', 1061396), ('of', 593677), ('and', 416629), ('one', 411764)]
+Sample data [5239, 3084, 12, 6, 195, 2, 3137, 46, 59, 156] ['anarchism', 'originated', 'as', 'a', 'term', 'of', 'abuse', 'first', 'used', 'against']
+3084 originated -> 5239 anarchism
+3084 originated -> 12 as
+12 as -> 6 a
+12 as -> 3084 originated
+6 a -> 12 as
+6 a -> 195 term
+195 term -> 2 of
+195 term -> 6 a
+Initialized
+Average loss at step  0 :  256.941314697
+Nearest to but: kalmyks, molecules, consular, protestant, morgan, vocally, beltway, explain,
+Nearest to the: serre, lustrous, riley, scandal, taliaferro, runyon, ziggy, atherosclerosis,
+Nearest to more: emmer, exocet, daleks, aberrations, maximize, falsify, constance, ophile,
+Nearest to as: wreath, katakana, astbury, broughton, retroviral, chicagoans, gareth, numerator,
+Nearest to to: late, daley, albatrosses, maddox, ind, mackay, sunspot, promotion,
+Nearest to on: edda, hempstead, meinhof, edible, sportswriters, santorini, galician, silos,
+Nearest to would: conserve, spacey, manar, computes, primigenius, moh, decry, probabilities,
+Nearest to people: postmodern, dianne, avert, chased, constructing, mismatch, aconcagua, donors,
+Nearest to up: spears, niece, abercorn, fumes, kajang, october, realising, large,
+Nearest to this: quirks, environmental, sca, wrongfully, hughes, overnight, joy, woodlands,
+Nearest to often: larva, catastrophe, halfway, malleable, rabies, twenties, barrier, desecration,
+Nearest to may: sophisticated, wingspan, let, geschichte, cape, wayside, plywood, causa,
+Nearest to new: platoon, reprinting, breatharian, jarman, teammate, digestion, oup, hebron,
+Nearest to other: outbreak, challenger, ltcm, exhorted, rankings, resurgent, secam, polytechnical,
+Nearest to and: abc, revolves, lockyer, shredded, papers, lcc, muad, onboard,
+Nearest to seven: bleeding, regum, wanderings, maneuver, misused, init, chute, neglect,
+Average loss at step  2000 :  113.615165965
+Average loss at step  4000 :  52.8526254237
+Average loss at step  6000 :  33.2183915687
+Average loss at step  8000 :  23.6611732051
+Average loss at step  10000 :  18.053437507
+Nearest to but: is, molecules, analogue, linguistics, explain, descent, ep, emotional,
+Nearest to the: a, this, UNK, his, mathbf, and, victoriae, one,
+Nearest to more: victoriae, being, push, mathbf, illyrians, emmer, implicit, tips,
+Nearest to as: in, and, with, victoriae, phi, reginae, for, claim,
+Nearest to to: and, victoriae, of, in, for, laos, mathbf, asterism,
+Nearest to on: in, and, of, edda, agave, analogue, from, fins,
+Nearest to would: yerushalmi, mile, homomorphism, victoriae, phi, hubbard, intelsat, laos,
+Nearest to people: fao, reginae, angola, oliver, origin, alabama, humanists, victoriae,
+Nearest to up: october, according, video, gulf, alice, agave, large, intention,
+Nearest to this: the, universities, buddhism, taggart, one, UNK, generated, noted,
+Nearest to often: afghani, mentally, military, emerged, known, notable, barrier, desecration,
+Nearest to may: geschichte, shell, cape, stop, themselves, burgess, let, help,
+Nearest to new: austin, icelandic, reginae, teammate, mpa, herman, agave, chamber,
+Nearest to other: lunar, nee, phi, outbreak, mathbf, rankings, organisations, occupation,
+Nearest to and: in, of, UNK, or, agave, to, by, one,
+Nearest to seven: nine, zero, basins, reginae, victoriae, agave, one, psi,
+Average loss at step  12000 :  14.0732602471
+Average loss at step  14000 :  11.5388730272
+Average loss at step  16000 :  10.0277100648
+Average loss at step  18000 :  8.75803694475
+Average loss at step  20000 :  7.75691568744
+Nearest to but: and, is, msg, dasyprocta, analogue, adder, consular, molecules,
+Nearest to the: a, his, dasyprocta, their, one, this, victoriae, agouti,
+Nearest to more: being, victoriae, illyrians, constance, implicit, push, shock, emmer,
+Nearest to as: and, in, for, is, with, was, agouti, by,
+Nearest to to: and, for, in, victoriae, nine, zero, dasyprocta, laos,
+Nearest to on: in, and, from, agave, of, two, agouti, rodents,
+Nearest to would: to, yerushalmi, was, laos, mile, homomorphism, or, ions,
+Nearest to people: fao, reginae, oliver, origin, humanists, alabama, angola, aconcagua,
+Nearest to up: agouti, according, video, october, niece, gulf, batll, spears,
+Nearest to this: the, it, which, that, universities, one, agouti, his,
+Nearest to often: afghani, mentally, emerged, military, barrier, dasyprocta, known, desecration,
+Nearest to may: shell, geschichte, cerro, can, themselves, nine, isu, let,
+Nearest to new: austin, icelandic, herman, reginae, agave, arrangements, chamber, mpa,
+Nearest to other: lunar, nee, organisations, ruled, phi, mathbf, occupation, numa,
+Nearest to and: in, or, dasyprocta, of, one, agouti, for, victoriae,
+Nearest to seven: zero, nine, four, eight, six, three, five, dasyprocta,
+Average loss at step  22000 :  7.20125586927
+Average loss at step  24000 :  6.94473053014
+Average loss at step  26000 :  6.66330010009
+Average loss at step  28000 :  6.18697298682
+Average loss at step  30000 :  6.12116701818
+Nearest to but: and, msg, dasyprocta, is, adder, analogue, which, victoriae,
+Nearest to the: his, their, this, its, a, dasyprocta, bos, agouti,
+Nearest to more: being, aberrations, primigenius, abakan, victoriae, constance, meta, implicit,
+Nearest to as: and, is, for, by, agouti, with, in, trinomial,
+Nearest to to: for, would, victoriae, will, nine, in, and, dasyprocta,
+Nearest to on: in, from, two, agave, by, for, of, agouti,
+Nearest to would: to, can, primigenius, could, or, laos, yerushalmi, should,
+Nearest to people: fao, reginae, oliver, jamie, origin, humanists, victoriae, alabama,
+Nearest to up: according, ghats, agouti, niece, october, video, nascent, cereals,
+Nearest to this: the, it, which, that, a, heuristics, agouti, aba,
+Nearest to often: checker, barrier, nbs, afghani, mentally, known, but, dasyprocta,
+Nearest to may: can, trinomial, shell, geschichte, cerro, volunteers, themselves, let,
+Nearest to new: bos, jarman, austin, platoon, khz, icelandic, herman, reginae,
+Nearest to other: lunar, nee, organisations, ruled, aorta, shooter, numa, mathbf,
+Nearest to and: or, in, dasyprocta, of, agouti, victoriae, agave, trinomial,
+Nearest to seven: eight, nine, six, four, five, three, zero, one,
+Average loss at step  32000 :  5.8569268477
+Average loss at step  34000 :  5.9031991303
+Average loss at step  36000 :  5.69128889906
+Average loss at step  38000 :  5.27934334993
+Average loss at step  40000 :  5.4544404242
+Nearest to but: and, msg, dasyprocta, which, victoriae, adder, bos, analogue,
+Nearest to the: a, his, its, their, dasyprocta, agouti, bos, victoriae,
+Nearest to more: most, being, aberrations, abakan, primigenius, meta, implicit, victoriae,
+Nearest to as: agouti, and, by, phi, one, tubing, highness, is,
+Nearest to to: nine, would, victoriae, will, variability, dasyprocta, for, in,
+Nearest to on: from, in, agave, agouti, dasyprocta, rodents, analogue, two,
+Nearest to would: can, to, could, primigenius, should, may, or, laos,
+Nearest to people: fao, reginae, jamie, victoriae, humanists, origin, oliver, agouti,
+Nearest to up: fumes, according, ghats, agouti, cereals, alvar, lucas, october,
+Nearest to this: which, it, the, that, any, dasyprocta, a, aba,
+Nearest to often: checker, it, nbs, that, but, which, barrier, dasyprocta,
+Nearest to may: can, trinomial, shell, would, volunteers, themselves, cerro, geschichte,
+Nearest to new: bos, jarman, austin, reginae, agave, khz, chalukyas, platoon,
+Nearest to other: nee, organisations, aorta, lunar, shooter, sticking, ruled, numa,
+Nearest to and: or, dasyprocta, victoriae, but, albury, trinomial, agouti, agave,
+Nearest to seven: eight, six, four, nine, five, zero, three, one,
+Average loss at step  42000 :  5.3129351083
+Average loss at step  44000 :  5.2503807565
+Average loss at step  46000 :  5.2443004514
+Average loss at step  48000 :  5.02388078964
+Average loss at step  50000 :  5.16018132305
+Nearest to but: and, dasyprocta, msg, which, adder, victoriae, where, bos,
+Nearest to the: their, its, his, dasyprocta, agouti, bos, a, this,
+Nearest to more: most, meta, less, being, primigenius, aberrations, implicit, abakan,
+Nearest to as: agouti, tubing, by, highness, trinomial, is, was, primigenius,
+Nearest to to: nine, variability, would, will, victoriae, for, can, dasyprocta,
+Nearest to on: in, from, agave, agouti, nuke, dasyprocta, two, rodents,
+Nearest to would: can, could, may, to, should, primigenius, will, laos,
+Nearest to people: fao, reginae, mandelbrot, victoriae, humanists, agouti, jamie, origin,
+Nearest to up: fumes, ghats, cereals, agouti, according, lucas, alvar, nascent,
+Nearest to this: which, it, the, that, a, aba, dasyprocta, agouti,
+Nearest to often: checker, sometimes, barrier, also, it, but, nbs, predominance,
+Nearest to may: can, trinomial, would, must, shell, cerro, will, volunteers,
+Nearest to new: bos, jarman, austin, reginae, agave, chamber, khz, platoon,
+Nearest to other: sticking, aorta, nee, tandem, many, organisations, starting, several,
+Nearest to and: or, but, dasyprocta, primigenius, agave, in, agouti, thibetanus,
+Nearest to seven: eight, six, four, nine, five, three, zero, one,
+Average loss at step  52000 :  5.18472134018
+Average loss at step  54000 :  5.08947182274
+Average loss at step  56000 :  5.05469887888
+Average loss at step  58000 :  5.12917745173
+Average loss at step  60000 :  4.93223310566
+Nearest to but: and, dasyprocta, which, callithrix, microcebus, msg, or, however,
+Nearest to the: their, its, sylia, a, dasyprocta, bos, this, michelob,
+Nearest to more: most, less, callithrix, meta, implicit, primigenius, abakan, being,
+Nearest to as: agouti, callithrix, tubing, in, trinomial, reginae, wct, by,
+Nearest to to: would, microcebus, will, nine, victoriae, callithrix, must, variability,
+Nearest to on: in, agave, from, agouti, nuke, dasyprocta, upon, at,
+Nearest to would: can, could, may, to, will, should, primigenius, microcebus,
+Nearest to people: fao, microcebus, mandelbrot, reginae, callithrix, victoriae, humanists, jamie,
+Nearest to up: fumes, ghats, microcebus, down, alvar, michelob, cereals, agouti,
+Nearest to this: which, it, the, that, aba, a, nhl, some,
+Nearest to often: sometimes, also, that, checker, it, barrier, predominance, not,
+Nearest to may: can, would, will, must, trinomial, microcebus, could, cerro,
+Nearest to new: bos, jarman, microcebus, austin, reginae, callithrix, khz, chamber,
+Nearest to other: many, several, some, sticking, callithrix, aorta, starting, tandem,
+Nearest to and: or, microcebus, callithrix, but, dasyprocta, agave, thibetanus, in,
+Nearest to seven: eight, six, five, nine, four, zero, three, callithrix,
+Average loss at step  62000 :  4.78882785362
+Average loss at step  64000 :  4.7807506249
+Average loss at step  66000 :  4.97054340255
+Average loss at step  68000 :  4.91025435758
+Average loss at step  70000 :  4.75159327316
+Nearest to but: and, however, dasyprocta, which, microcebus, callithrix, msg, or,
+Nearest to the: their, its, sylia, dasyprocta, this, bos, his, agouti,
+Nearest to more: less, most, callithrix, meta, implicit, abakan, aberrations, primigenius,
+Nearest to as: agouti, callithrix, tubing, trinomial, wct, thibetanus, when, dasyprocta,
+Nearest to to: microcebus, would, will, eurotunnel, variability, can, callithrix, victoriae,
+Nearest to on: in, agave, upon, from, agouti, dasyprocta, nuke, rodents,
+Nearest to would: can, could, may, will, should, to, primigenius, microcebus,
+Nearest to people: fao, microcebus, mandelbrot, reginae, callithrix, victoriae, jamie, humanists,
+Nearest to up: fumes, down, ghats, microcebus, them, michelob, agouti, cereals,
+Nearest to this: which, it, the, that, aba, one, nhl, agouti,
+Nearest to often: sometimes, also, that, commonly, usually, generally, which, predominance,
+Nearest to may: can, would, will, must, could, trinomial, microcebus, might,
+Nearest to new: bos, microcebus, jarman, austin, khz, callithrix, reginae, chamber,
+Nearest to other: many, some, several, callithrix, aorta, microcebus, starting, organisations,
+Nearest to and: or, callithrix, microcebus, dasyprocta, but, mitral, microsite, primigenius,
+Nearest to seven: six, eight, five, nine, four, three, zero, callithrix,
+Average loss at step  72000 :  4.78690772676
+Average loss at step  74000 :  4.78622698009
+Average loss at step  76000 :  4.8785804745
+Average loss at step  78000 :  4.80022619462
+Average loss at step  80000 :  4.82596891451
+Nearest to but: and, however, dasyprocta, callithrix, which, microcebus, msg, victoriae,
+Nearest to the: its, dasyprocta, their, bos, his, this, michelob, callithrix,
+Nearest to more: less, most, callithrix, meta, implicit, abakan, very, primigenius,
+Nearest to as: agouti, callithrix, tubing, when, highness, like, analogue, ursus,
+Nearest to to: microcebus, eurotunnel, will, would, variability, can, victoriae, castrato,
+Nearest to on: in, cegep, agave, upon, fukuoka, from, nuke, agouti,
+Nearest to would: can, could, may, will, should, to, must, might,
+Nearest to people: fao, microcebus, mandelbrot, reginae, callithrix, victoriae, jamie, plaster,
+Nearest to up: fumes, down, them, ghats, microcebus, michelob, cereals, alvar,
+Nearest to this: which, it, the, that, nhl, aba, unassigned, some,
+Nearest to often: sometimes, also, cegep, commonly, usually, generally, which, that,
+Nearest to may: can, would, will, could, must, might, trinomial, microcebus,
+Nearest to new: bos, jarman, microcebus, austin, callithrix, khz, reginae, prism,
+Nearest to other: many, some, organisations, several, starting, including, aorta, callithrix,
+Nearest to and: or, but, mitral, microcebus, callithrix, dasyprocta, cegep, microsite,
+Nearest to seven: six, eight, five, four, nine, three, zero, callithrix,
+Average loss at step  82000 :  4.81262803376
+Average loss at step  84000 :  4.76922954905
+Average loss at step  86000 :  4.74649188793
+Average loss at step  88000 :  4.68871782601
+Average loss at step  90000 :  4.78263600314
+Nearest to but: and, however, which, dasyprocta, callithrix, microcebus, msg, or,
+Nearest to the: its, dasyprocta, this, bos, their, sylia, his, wct,
+Nearest to more: less, most, very, meta, implicit, callithrix, abakan, constance,
+Nearest to as: agouti, callithrix, when, tubing, ursus, analogue, by, thibetanus,
+Nearest to to: microcebus, will, eurotunnel, would, castrato, can, callithrix, victoriae,
+Nearest to on: in, upon, agave, cegep, nuke, fukuoka, agouti, dasyprocta,
+Nearest to would: can, could, may, will, should, must, might, to,
+Nearest to people: microcebus, mandelbrot, reginae, fao, children, callithrix, jamie, victoriae,
+Nearest to up: fumes, them, down, ghats, out, off, cereals, alvar,
+Nearest to this: which, it, the, that, some, aba, nhl, another,
+Nearest to often: sometimes, also, commonly, usually, generally, cegep, now, which,
+Nearest to may: can, would, will, could, must, might, microcebus, trinomial,
+Nearest to new: bos, jarman, microcebus, austin, callithrix, prism, reginae, agave,
+Nearest to other: many, some, several, organisations, including, mesoplodon, starting, sticking,
+Nearest to and: or, but, microcebus, callithrix, mitral, dasyprocta, sylia, cegep,
+Nearest to seven: six, eight, five, four, nine, three, zero, callithrix,
+Average loss at step  92000 :  4.69644540679
+Average loss at step  94000 :  4.61924933898
+Average loss at step  96000 :  4.7344696492
+Average loss at step  98000 :  4.61298142105
+Average loss at step  100000 :  4.67884206235
+Nearest to but: and, however, which, dasyprocta, callithrix, while, or, microcebus,
+Nearest to the: its, their, his, dasyprocta, bos, this, sylia, dinar,
+Nearest to more: less, most, callithrix, implicit, very, meta, abakan, schenectady,
+Nearest to as: agouti, callithrix, when, tubing, by, like, cegep, in,
+Nearest to to: eurotunnel, will, would, can, microcebus, into, through, cannot,
+Nearest to on: in, upon, cegep, agave, at, fukuoka, against, minkowski,
+Nearest to would: can, could, will, may, should, might, must, to,
+Nearest to people: microcebus, dejima, reginae, mandelbrot, callithrix, fao, children, victoriae,
+Nearest to up: fumes, them, down, dbm, off, out, ghats, michelob,
+Nearest to this: which, it, the, that, some, another, aba, a,
+Nearest to often: sometimes, usually, commonly, generally, also, now, cegep, widely,
+Nearest to may: can, would, will, could, must, might, should, microcebus,
+Nearest to new: bos, jarman, microcebus, prism, callithrix, reginae, austin, agave,
+Nearest to other: many, some, including, several, mesoplodon, organisations, microcebus, these,
+Nearest to and: or, but, callithrix, microcebus, mitral, dasyprocta, thibetanus, cegep,
+Nearest to seven: six, eight, five, four, nine, three, zero, callithrix,
+Please install sklearn, matplotlib, and scipy to visualize embeddings.
